@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Publisher", "RabbitMQ.Publisher\RabbitMQ.Publisher.csproj", "{7D6C1543-6AC3-495A-B21D-B7B50AEBB19D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.DirectExchange.Publisher", "RabbitMQ.DirectExchange.Publisher\RabbitMQ.DirectExchange.Publisher.csproj", "{5D78986D-5219-4404-9657-2250E8BEC900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.DirectExchange.Publisher", "RabbitMQ.DirectExchange.Publisher\RabbitMQ.DirectExchange.Publisher.csproj", "{5D78986D-5219-4404-9657-2250E8BEC900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.FanoutExchange.Publisher", "RabbitMQ.FanoutExchange.Publisher\RabbitMQ.FanoutExchange.Publisher.csproj", "{8A6C0A92-7BE7-429B-B819-880E57D60DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5D78986D-5219-4404-9657-2250E8BEC900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D78986D-5219-4404-9657-2250E8BEC900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D78986D-5219-4404-9657-2250E8BEC900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6C0A92-7BE7-429B-B819-880E57D60DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6C0A92-7BE7-429B-B819-880E57D60DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6C0A92-7BE7-429B-B819-880E57D60DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6C0A92-7BE7-429B-B819-880E57D60DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
