@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.TopicExchange.Publ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.HeaderExchange.Publisher", "RabbitMQ.HeaderExchange.Publisher\RabbitMQ.HeaderExchange.Publisher.csproj", "{C5C01B5B-DDD1-45C9-94B2-F179FC762ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MessageTemplates.Publisher", "RabbitMQ.MessageTemplates.Publisher\RabbitMQ.MessageTemplates.Publisher.csproj", "{7B812D7F-D117-44CD-93CC-F1BEC38812D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MessageTemplates.Publisher", "RabbitMQ.MessageTemplates.Publisher\RabbitMQ.MessageTemplates.Publisher.csproj", "{7B812D7F-D117-44CD-93CC-F1BEC38812D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Publisher", "RabbitMQ.ESB.MassTransit.Publisher\RabbitMQ.ESB.MassTransit.Publisher.csproj", "{FC28091A-A8B7-4475-8D1D-D1FB37AAC4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Shared", "RabbitMQ.ESB.MassTransit.Shared\RabbitMQ.ESB.MassTransit.Shared.csproj", "{20E85E45-B88D-47EE-8FF0-9CF67B2B58D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.WorkerService.Publisher", "RabbitMQ.ESB.MassTransit.WorkerService.Publisher\RabbitMQ.ESB.MassTransit.WorkerService.Publisher.csproj", "{5CEBDF8F-162B-43EE-B0E9-6FF4E736423B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{7B812D7F-D117-44CD-93CC-F1BEC38812D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B812D7F-D117-44CD-93CC-F1BEC38812D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B812D7F-D117-44CD-93CC-F1BEC38812D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC28091A-A8B7-4475-8D1D-D1FB37AAC4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC28091A-A8B7-4475-8D1D-D1FB37AAC4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC28091A-A8B7-4475-8D1D-D1FB37AAC4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC28091A-A8B7-4475-8D1D-D1FB37AAC4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E85E45-B88D-47EE-8FF0-9CF67B2B58D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E85E45-B88D-47EE-8FF0-9CF67B2B58D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E85E45-B88D-47EE-8FF0-9CF67B2B58D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E85E45-B88D-47EE-8FF0-9CF67B2B58D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEBDF8F-162B-43EE-B0E9-6FF4E736423B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEBDF8F-162B-43EE-B0E9-6FF4E736423B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEBDF8F-162B-43EE-B0E9-6FF4E736423B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEBDF8F-162B-43EE-B0E9-6FF4E736423B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
